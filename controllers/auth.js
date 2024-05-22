@@ -15,7 +15,7 @@ const isSignedIn = async (req, res, next) => {
     }
   } catch (error) {
     console.log(error);
-    res.status(500).json({ test: 'du kommst da nicht' });
+    res.status(500).json({ test: 'du kommst da nicht rein!' });
   }
 };
 export default isSignedIn;
